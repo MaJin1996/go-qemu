@@ -17,8 +17,7 @@ package hypervisor
 import (
 	"net"
 
-	"github.com/digitalocean/go-libvirt"
-	"github.com/digitalocean/go-qemu/qmp"
+	"github.com/MaJin1996/go-qemu/qmp"
 )
 
 var _ Driver = &RPCDriver{}

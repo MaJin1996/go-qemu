@@ -17,11 +17,10 @@ package qemu
 import (
 	"errors"
 	"fmt"
+	"github.com/MaJin1996/go-qemu/qmp"
 	"io"
 	"path/filepath"
 	"time"
-
-	"github.com/digitalocean/go-qemu/qmp"
 )
 
 const (

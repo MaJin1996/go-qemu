@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	gen "github.com/digitalocean/go-qemu/internal/qmp-gen"
+	gen "github.com/MaJin1996/go-qemu/internal/qmp-gen"
 )
 
 func main() {

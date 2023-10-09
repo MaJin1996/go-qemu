@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/digitalocean/go-qemu/qemu"
-	"github.com/digitalocean/go-qemu/qmp"
-	"github.com/digitalocean/go-qemu/qmp/qmptest"
+	"github.com/MaJin1996/go-qemu/qemu"
+	"github.com/MaJin1996/go-qemu/qmp"
+	"github.com/MaJin1996/go-qemu/qmp/qmptest"
 )
 
 // This example demonstrates how to use qemu.NewDomain with a qmp.Monitor to

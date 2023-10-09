@@ -21,7 +21,7 @@ import (
 	"net"
 	"time"
 
-	hypervisor "github.com/digitalocean/go-qemu/hypervisor"
+	hypervisor "github.com/MaJin1996/go-qemu/hypervisor"
 )
 
 var (

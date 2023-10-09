@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	qapischema "github.com/digitalocean/go-qemu/qapi-schema"
+	qapischema "github.com/MaJin1996/go-qemu/qapi-schema"
 )
 
 func TestGenerate(t *testing.T) {

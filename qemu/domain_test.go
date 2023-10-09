@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/digitalocean/go-qemu/qmp"
-	"github.com/digitalocean/go-qemu/qmp/raw"
+	"github.com/MaJin1996/go-qemu/qmp"
+	"github.com/MaJin1996/go-qemu/qmp/raw"
 )
 
 const defaultTestTimeout = 50 * time.Millisecond
