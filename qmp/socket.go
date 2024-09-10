@@ -181,6 +181,8 @@ func (mon *SocketMonitor) listen(r io.Reader, events chan<- Event, stream chan<-
 	defer close(stream)
 
 	scanner := bufio.NewScanner(r)
+	buf := make([]byte, 0, 512*1024)
+	scanner.Buffer(buf, 64*1024*1024)
 	for scanner.Scan() {
 		var e Event
 
